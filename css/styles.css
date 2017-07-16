@@ -1,5 +1,6 @@
 html {
   font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
 }
 
 body {
@@ -13,11 +14,7 @@ a {
   text-decoration: none;
 }
 
-p {
-  font-size: 18px;
-}
-
-/* Navigation bar */
+/* TOP NAVIGATION BAR */
 
 #navbar {
   width: 100%;
@@ -30,7 +27,7 @@ p {
 
 #navbar-content {
   margin: 0 auto;
-  width: 960px;
+  width: 80%;
 }
 
 #company-name {
@@ -49,19 +46,20 @@ p {
   margin: 0 auto;
   list-style: none;
   display: inline-block;
+  font-size: 16px;
 }
 
 #nav-links li {
   margin-top: 20px;
   float: left;
-  padding-left: 20px;
+  padding-left: 30px;
 }
 
-/* Main Content */
+/* MAIN CONTENT AREA - LOGO */
 
-.container {
+#page-container {
   margin: 0 auto;
-  height: 2000px;
+  height: 100%;
   width: 100%;
 }
 
@@ -80,7 +78,7 @@ p {
 
 .main-content {
   margin: 0 auto;
-  width: 800px;
+  width: 50%;
   text-align: center;
   color: #fff;
 }
@@ -91,49 +89,60 @@ p {
   margin-top: 40px;
 }
 
-.options-text {
-  margin-bottom: 40px;
-}
-
 .scroll-logo {
   margin-top: 200px;
 }
 
-.scroll-text {
+.small-text {
   font-size: 14px;
+  font-weight: 200;
   margin-top: 5px;
+}
+
+.medium-text {
+  font-size: 16px;
+  font-weight: 200;
+}
+
+.large-text {
+  font-weight: 200;
+  font-size: 18px;
 }
 
 /* Buttons in main */
 
 .button-choices {
-  /* for future use */
+  margin: 0 auto;
+  margin-top: 60px;
+  width: 80%;
 }
 
 #claim-button {
+  font-size: 16px;
+  font-weight: 200;
   background-color: lightseagreen;
   border: none;
   color: #fff;
   padding: 15px 30px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
   width: 200px;
 }
 
 #help-button {
+  font-size: 16px;
+  font-weight: 200;
   background-color: dodgerblue;
   border: none;
   color: #fff;
   padding: 15px 30px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
   width: 200px;
   margin-left: 20px;
 }
 
-/* Learning area */
+/* LEARNING SECTION - MIDDLE - */
 
 #learning-area {
   position: relative;
@@ -148,7 +157,7 @@ p {
   color: dodgerblue;
 }
 
-#learning-icons {
+.icon-wrap {
   margin: 0 auto;
   margin-top: -20px;
   width: 80%;
@@ -180,6 +189,7 @@ p {
 
 .help-text {
   font-size: 18px;
+  color: black;
 }
 
 .help-links {
@@ -191,4 +201,43 @@ p {
 
 .help-links img {
   margin-left: 20px;
+}
+
+/* FOOTER SECTION - BOTTOM */
+
+#footer {
+  width: 100%;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 100px;
+  text-align: center;
+  background-color: #66a3ff;
+  color: #fff;
+}
+
+.footer-content {
+  margin: 0 auto;
+  text-align: center;
+  width: 40%;
+}
+
+#footer h3 {
+  font-size: 36px;
+  font-weight: 300;
+  color: #fff;
+  padding-top: 100px;
+  padding-bottom: 20px;
+}
+
+#footer .icon-logo {
+  padding: 40px;
+}
+
+#footer .icon-text {
+  font-size: 14px;
+}
+
+#footer .icon-wrap {
+  padding-top: 20px;
+  padding-bottom: 100px;
 }
