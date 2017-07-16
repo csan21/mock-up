@@ -15,7 +15,6 @@ a {
 }
 
 /** TOP NAVIGATION BAR **/
-
 header {
   width: 100%;
   background-color: dodgerblue;
@@ -55,7 +54,6 @@ header {
 }
 
 /** MAIN SECTION - BELOW NAV **/
-
 main {
   margin: 0 auto;
   height: 100%;
@@ -71,7 +69,6 @@ main {
   position: relative;
   margin: 0 auto;
   margin-top: 100px;
-
   align-items: center;
   justify-content: center;
 }
@@ -93,8 +90,7 @@ main {
   margin-top: 200px;
 }
 
-/**/
-
+/* text size classes */
 .small-text {
   font-size: 14px;
   font-weight: 200;
@@ -112,7 +108,6 @@ main {
 }
 
 /* buttons in main area */
-
 #button-choices {
   margin: 0 auto;
   margin-top: 60px;
@@ -144,8 +139,7 @@ main {
   margin-left: 20px;
 }
 
-/* LEARNING SECTION - MIDDLE - */
-
+/** LEARNING SECTION - MIDDLE **/
 #learning-area {
   position: relative;
   margin: 0 auto;
@@ -160,7 +154,6 @@ main {
 }
 
 /* middle and bottom page icons */
-
 .icon-wrap {
   margin: 0 auto;
   margin-top: -20px;
@@ -181,7 +174,6 @@ main {
 }
 
 /* */
-
 .line-break {
   margin: 0 auto;
   width: 60%;
@@ -190,7 +182,6 @@ main {
 }
 
 /* */
-
 #help-area {
   margin-top: 36px;
   color: black;
@@ -208,7 +199,6 @@ main {
 }
 
 /** FOOTER SECTION - BOTTOM **/
-
 footer {
   width: 100%;
   position: relative;
@@ -250,7 +240,6 @@ footer .icon-wrap {
   and (min-device-width: 320px)
   and (max-device-width: 667px)
   and (-webkit-min-device-pixel-ratio: 2) {
-
     #main-content h1 {
       font-size: 48px;
     }
