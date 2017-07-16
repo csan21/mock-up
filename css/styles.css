@@ -23,7 +23,7 @@ header {
   margin-bottom: -100px;
 }
 
-#navbar {
+nav {
   margin: 0 auto;
   width: 80%;
 }
@@ -73,14 +73,14 @@ main {
   justify-content: center;
 }
 
-#main-content {
+#mission-intro {
   margin: 0 auto;
   width: 50%;
   text-align: center;
   color: #fff;
 }
 
-#main-content h1 {
+#mission-intro h1 {
   padding-top: 100px;
   font-size: 72px;
   font-weight: 300;
