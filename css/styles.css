@@ -98,13 +98,13 @@ main {
 }
 
 .medium-text {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 200;
 }
 
 .large-text {
   font-weight: 300;
-  font-size: 18px;
+  font-size: 22px;
 }
 
 /* buttons in main area */
@@ -141,7 +141,7 @@ main {
 
 #learning-area h2 {
   margin-top: 72px;
-  font-size: 36px;
+  font-size: 42px;
   font-weight: 300;
   color: dodgerblue;
 }
@@ -163,7 +163,7 @@ main {
 .icon-text {
   display: block;
   margin-top: 0px;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 /* */
@@ -205,11 +205,11 @@ footer {
 #footer-content {
   margin: 0 auto;
   text-align: center;
-  width: 40%;
+  width: 50%;
 }
 
 footer h3 {
-  font-size: 36px;
+  font-size: 42px;
   font-weight: 300;
   color: #fff;
   padding-top: 100px;
@@ -221,7 +221,7 @@ footer .icon-logo {
 }
 
 footer .icon-text {
-  font-size: 16px;
+  font-size: 18px;
 }
 
 footer .icon-wrap {
