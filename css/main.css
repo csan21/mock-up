@@ -29,6 +29,21 @@ header, nav {
   margin: 0 auto;
   margin-bottom: -80px; }
 
+nav {
+  width: 90%; }
+  nav > .nav-links {
+    list-style-type: none;
+    float: right;
+    margin: 0 auto;
+    display: inline-block;
+    font-size: 16px; }
+    nav > .nav-links > li {
+      margin-top: 15px;
+      float: right;
+      padding: 30px; }
+      nav > .nav-links > li > a:hover {
+        color: darkblue; }
+
 .buttons {
   margin: 0 auto;
   margin-top: 60px;
@@ -86,22 +101,6 @@ button, .claim-button, .help-button {
   margin: 0 auto;
   width: 100%;
   text-align: center; }
-
-/** NAVIGATION BAR **/
-nav {
-  width: 90%; }
-  nav > .nav-links {
-    list-style-type: none;
-    float: right;
-    margin: 0 auto;
-    display: inline-block;
-    font-size: 16px; }
-    nav > .nav-links > li {
-      margin-top: 15px;
-      float: right;
-      padding: 30px; }
-      nav > .nav-links > li > a:hover {
-        color: darkblue; }
 
 /* TOP PAGE / INTRO INDEX PAGE */
 .splash-index {
@@ -162,4 +161,4 @@ nav {
     padding-left: 80px;
     padding-right: 80px; } }
 
-/*# sourceMappingURL=styles.css.map */
+/*# sourceMappingURL=main.css.map */

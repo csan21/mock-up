@@ -1,0 +1,9 @@
+Notes for Erik Germani
+
+As you advised I completed a revision using SASS. I made it more modular with partials to keep everything clean, readable, and most importantly, re-useable. 
+
+I actually had a lot of fun going through everything and separating it all. I’ve used SASS before but not as in depth as I just went into it. It definitely makes everything cleaner and easier to manage. I know there is still a lot more to learn for optimal organization and I’m looking forward to it.
+
+
+Thanks!
+Chris Santos

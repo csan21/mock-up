@@ -1,31 +1,8 @@
 @import 'defaults';
+@import 'navigation';
 @import 'buttons';
 @import 'icons';
 @import 'grid';
-
-/** NAVIGATION BAR **/
-nav {
-  @extend header;
-  width: 90%;
-
-  > .nav-links {
-    list-style-type: none;
-    float: right;
-    margin: 0 auto;
-    display: inline-block;
-    font-size: 16px;
-
-    > li {
-      margin-top: 15px;
-      float: right;
-      padding: 30px;
-
-      > a:hover {
-        color: darkblue;
-      }
-    }
-  }
-}
 
 /* TOP PAGE / INTRO INDEX PAGE */
 .splash-index {
