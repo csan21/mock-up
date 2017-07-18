@@ -1,0 +1,27 @@
+.buttons {
+  margin: 0 auto;
+  margin-top: 60px;
+  width: 100%;
+}
+
+button {
+  font-size: 18px;
+  font-weight: 200;
+  border: none;
+  color: #fff;
+  padding: 12px;
+  text-align: center;
+  text-decoration: none;
+  width: 30%;
+}
+
+.claim-button {
+  @extend button;
+  background-color: #19b552;
+}
+
+.help-button {
+  @extend button;
+  background-color: $main-blue;
+  margin-left: 20px;
+}

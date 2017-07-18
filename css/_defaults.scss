@@ -1,0 +1,51 @@
+// default fonts and colors
+$font: 'Source Sans Pro', sans-serif;
+$main-blue: #037cff;
+$secondary-blue: #4fa2fe;
+
+// splash backgrounds for different pages
+$index-bg: url(../img/tempbg.jpg) no-repeat center center;
+
+html {
+  font-family: $font;
+  font-size: 18px;
+
+  .small-text {
+    font-size: 14px;
+    font-weight: 200;
+    margin-top: 5px;
+  }
+
+  .medium-text {
+    font-size: 22px;
+    font-weight: 200;
+  }
+
+  .large-text {
+    font-size: 24px;
+    font-weight: 200;
+  }
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+
+  &:hover {
+  }
+}
+
+header {
+  width: 100%;
+  background-color: $main-blue;
+  height: 120px;
+  position: static;
+  margin: 0 auto;
+  margin-bottom: -80px;
+}
