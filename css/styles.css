@@ -67,24 +67,7 @@ button, .claim-button, .help-button {
   margin-top: 0px;
   font-size: 24px; }
 
-/** NAVIGATION BAR **/
-nav {
-  width: 80%; }
-  nav > .nav-links {
-    list-style-type: none;
-    float: right;
-    margin: 0 auto;
-    display: inline-block;
-    font-size: 16px; }
-    nav > .nav-links > li {
-      margin-top: 15px;
-      float: right;
-      padding: 30px; }
-      nav > .nav-links > li > a:hover {
-        color: darkblue; }
-
-/* GRID */
-.container, .top-page, .middle-page, .bottom-page {
+.container, .top-page, .splash-index, .middle-page, .bottom-page {
   position: relative;
   margin: 0 auto;
   width: 100%;
@@ -101,8 +84,24 @@ nav {
 
 .content, .intro-index, .learning-index, .help-index, .footer-index, .outro-index {
   margin: 0 auto;
-  width: 90%;
+  width: 100%;
   text-align: center; }
+
+/** NAVIGATION BAR **/
+nav {
+  width: 90%; }
+  nav > .nav-links {
+    list-style-type: none;
+    float: right;
+    margin: 0 auto;
+    display: inline-block;
+    font-size: 16px; }
+    nav > .nav-links > li {
+      margin-top: 15px;
+      float: right;
+      padding: 30px; }
+      nav > .nav-links > li > a:hover {
+        color: darkblue; }
 
 /* TOP PAGE / INTRO INDEX PAGE */
 .splash-index {
@@ -151,7 +150,7 @@ nav {
 
 /* media query */
 @media only screen and (min-device-width: 320px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
-  .top-page h1 {
+  .intro-index h1 {
     font-size: 60px; }
 
   /* puts icons into two rows of 2 on smaller device */
